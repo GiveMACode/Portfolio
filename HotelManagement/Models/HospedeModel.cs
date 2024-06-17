@@ -2,12 +2,12 @@
 
 public class Hospede
     {
-        public string Nome { get; set; }
-        public string Endereco { get; set; }
-        public string Telefone { get; set; }
-        public DateTime DataNascimento { get; set; }
-        public string Email { get; set; }
-        public string NumeroDocumento { get; set; }
+        private string Nome { get; set; }
+        private string Endereco { get; set; }
+        private string Telefone { get; set; }
+        private DateTime DataNascimento { get; set; }
+        private string Email { get; set; }
+        private string NumeroDocumento { get; set; }
 
         public Hospede(string nome, string endereco, string telefone, DateTime dataNascimento, string email, string numeroDocumento)
         {

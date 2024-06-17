@@ -3,13 +3,13 @@
 
     public class Quarto
     {
-        public int Numero { get; set; }
-        public string Tipo { get; set; }
-        public decimal Preco { get; set; }
-        public bool Ocupado { get; set; }
-        public string Descricao { get; set; }
-        public int Capacidade { get; set; }
-        public List<string> Facilidades { get; set; }
+        private int Numero { get; set; }
+        private string Tipo { get; set; }
+        private decimal Preco { get; set; }
+        private bool Ocupado { get; set; }
+        private string Descricao { get; set; }
+        private int Capacidade { get; set; }
+        private List<string> Facilidades { get; set; }
 
         public Quarto(int numero, string tipo, decimal preco, bool ocupado, string descricao, int capacidade, List<string> facilidades)
         {
