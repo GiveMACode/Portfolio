@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListAPI", "ToDoListAPI\ToDoListAPI.csproj", "{20B740BB-DC20-488F-81FF-6CE10BE81592}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement", "HotelManagement\HotelManagement.csproj", "{EAC74849-E5AC-4197-8ED8-9B161848FD86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{20B740BB-DC20-488F-81FF-6CE10BE81592}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20B740BB-DC20-488F-81FF-6CE10BE81592}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20B740BB-DC20-488F-81FF-6CE10BE81592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC74849-E5AC-4197-8ED8-9B161848FD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC74849-E5AC-4197-8ED8-9B161848FD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC74849-E5AC-4197-8ED8-9B161848FD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC74849-E5AC-4197-8ED8-9B161848FD86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
