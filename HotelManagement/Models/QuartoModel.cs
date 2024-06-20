@@ -2,10 +2,10 @@
 
 public class Quarto
     {
-        private int QuartoId { get; set; }
-        private string TipoQuarto { get; set; }
-        private string Descricao { get; set; }
-        private decimal PrecoPorNoite { get; set; }
-        private string Status { get; set; }
-        private bool IsDeleted { get; set; } = false;
+        public int QuartoId { get; set; }
+        public string TipoQuarto { get; set; }
+        public string Descricao { get; set; }
+        public decimal PrecoPorNoite { get; set; }
+        public string Status { get; set; }
+        public bool IsDeleted { get; set; } = false;
     }

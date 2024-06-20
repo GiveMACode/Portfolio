@@ -2,11 +2,11 @@
 
 public class Reserva
     {
-        private int ReservaId { get; set; }
-        private int HospedeId { get; set; }
-        private int QuartoId { get; set; }
-        private DateTime DataCheckIn { get; set; }
-        private DateTime DataCheckOut { get; set; }
-        private string Status { get; set; }
-        private bool IsDeleted { get; set; } = false;
+        public int HospedeId { get; set; }
+        public int ReservaId { get; set; }
+        public int QuartoId { get; set; }
+        public DateTime DataCheckIn { get; set; }
+        public DateTime DataCheckOut { get; set; }
+        public string Status { get; set; }
+        public bool IsDeleted { get; set; } = false;
     }
