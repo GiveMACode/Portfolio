@@ -1,7 +1,11 @@
-﻿namespace HotelManagement.Models;
+﻿namespace HotelManagement.DTOs;
 
-public class Reserva
+using System.ComponentModel.DataAnnotations;
+using  HotelManagement.Models;
+
+public class ReservaDTO
     {
+
         private int ReservaId { get; set; }
         private int HospedeId { get; set; }
         private int QuartoId { get; set; }
